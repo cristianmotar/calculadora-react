@@ -10,7 +10,12 @@ function App() {
           className='logo'
           alt='Logo de Ritmosss' />
       </div>
-     
+      <div className='contenedor-calculadora'>
+        <div className='fila'></div>
+        <div className='fila'></div>
+        <div className='fila'></div>
+        <div className='fila'></div>
+      </div>
     </div>
   );
 }
