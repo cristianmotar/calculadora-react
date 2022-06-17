@@ -5,3 +5,5 @@ const BotonClear = (props) =>(
         {props.children}
     </div>
 );
+
+export default BotonClear;

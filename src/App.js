@@ -2,6 +2,7 @@ import './App.css';
 import logotipor from './img/logotipor.png';
 import Boton from './components/Boton';
 import Pantalla from './components/Pantalla';
+import BotonClear from './components/BotonClear';
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
           <Boton>/</Boton> 
         </div>
         <div className='fila'>
-          <Boton>Clear</Boton>
+          <BotonClear>Clear</BotonClear>
         </div>
       </div>
     </div>
