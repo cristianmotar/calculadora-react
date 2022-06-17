@@ -1,6 +1,7 @@
 import './App.css';
-import logotipor from './img/logotipor.png'
-import Boton from './components/Boton'
+import logotipor from './img/logotipor.png';
+import Boton from './components/Boton';
+import Pantalla from './components/Pantalla';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
           alt='Logo de Ritmosss' />
       </div>
       <div className='contenedor-calculadora'>
+
+        <Pantalla />
         <div className='fila'>
           <Boton>1</Boton>
           <Boton>2</Boton>
